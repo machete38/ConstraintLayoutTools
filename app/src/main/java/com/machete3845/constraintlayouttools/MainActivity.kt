@@ -11,9 +11,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btn1: Button = findViewById(R.id.bt1)
+        val btn2: Button = findViewById(R.id.bt2)
 
         btn1.setOnClickListener {
             startActivity(Intent(this, BasicConstraintsActivity::class.java))
+        }
+        btn2.setOnClickListener {
+            startActivity(Intent(this, ChainsActivity::class.java))
         }
 
     }
