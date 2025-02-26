@@ -12,12 +12,17 @@ class MainActivity : AppCompatActivity() {
 
         val btn1: Button = findViewById(R.id.bt1)
         val btn2: Button = findViewById(R.id.bt2)
+        val btn3: Button = findViewById(R.id.bt3)
 
         btn1.setOnClickListener {
             startActivity(Intent(this, BasicConstraintsActivity::class.java))
         }
         btn2.setOnClickListener {
             startActivity(Intent(this, ChainsActivity::class.java))
+        }
+
+        btn3.setOnClickListener {
+            startActivity(Intent(this, BarriersActivity::class.java))
         }
 
     }
