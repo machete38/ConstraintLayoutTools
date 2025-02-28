@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         val btn1: Button = findViewById(R.id.bt1)
         val btn2: Button = findViewById(R.id.bt2)
         val btn3: Button = findViewById(R.id.bt3)
+        val btn4: Button = findViewById(R.id.bt4)
 
         btn1.setOnClickListener {
             startActivity(Intent(this, BasicConstraintsActivity::class.java))
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity() {
 
         btn3.setOnClickListener {
             startActivity(Intent(this, BarriersActivity::class.java))
+        }
+        btn4.setOnClickListener {
+            startActivity(Intent(this, GuidlinesActivity::class.java))
         }
 
     }
