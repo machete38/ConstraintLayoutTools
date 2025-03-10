@@ -1,1 +1,3 @@
-Different tools of constraintLayout in one project
+Использование различных возможностей ConstrainLayout в одном проекте
+
+Different tools of ConstraintLayout in one project
